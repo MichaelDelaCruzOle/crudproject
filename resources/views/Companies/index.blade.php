@@ -5,12 +5,12 @@
     <title>COMPANIES</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
 </head>
-<body style="background-color: #6610f2;">
-    <div class="container mt-2" style="background-color: white;">
+<body style="background-color: #9f45b0;">
+    <div class="container mt-2">
         <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left">
-                    <h2>COMPANIES</h2>
+                   <center> <h1>COMPANIES</h1></center>
                 </div>
                 <div class="pull-right mb-2">
                     <a class="btn btn-success" href="{{ route('companies.create') }}"> Create Company</a>
@@ -22,7 +22,7 @@
                 <p>{{ $message }}</p>
             </div>
         @endif
-        <table class="table table-striped">
+        <table class="table table-dark table-hover">
         <thead class="thead-dark">
                 <tr>
                     <th>S.No</th>
