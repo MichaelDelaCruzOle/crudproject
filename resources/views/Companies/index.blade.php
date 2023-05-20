@@ -5,7 +5,7 @@
     <title>COMPANIES</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
 </head>
-<body>
+<body style="background-color: blue;">
     <div class="container mt-2">
         <div class="row">
             <div class="col-lg-12 margin-tb">
@@ -45,7 +45,6 @@
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="btn btn-danger">Delete</button>
-                                <button type="submit" class="btn btn-primary">View</button>
                             </form>
                         </td>
                     </tr>
