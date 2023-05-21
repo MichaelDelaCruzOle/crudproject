@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
-<body>
-    <div class="container mt-2">
+<body style="background-color: lightblue;">
+    <div class="container mt-2" style="background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
+  padding: 20px;">
         <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left">
-                    <h2>Edit Company</h2>
+                    <center><h1 style="color: white;">Edit Company</h1></center>
                 </div>
                 <div class="pull-right">
                     <a class="btn btn-primary" href="{{ route('companies.index') }}" enctype="multipart/form-data">

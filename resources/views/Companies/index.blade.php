@@ -5,7 +5,7 @@
     <title>COMPANIES</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
 </head>
-<body style="background-color: #9f45b0;">
+<body style="background-color: lightblue;">
     <div class="container mt-2">
         <div class="row">
             <div class="col-lg-12 margin-tb">
@@ -22,7 +22,8 @@
                 <p>{{ $message }}</p>
             </div>
         @endif
-        <table class="table table-dark table-hover">
+        <table class="table table-dark table-hover"  style="background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
+  padding: 20px;">
         <thead class="thead-dark">
                 <tr>
                     <th>S.No</th>
