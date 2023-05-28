@@ -15,11 +15,6 @@
                 <div class="pull-left mb-2">
                     <center><h1 style="color: white;">Add Account</h1></center>
                 </div>
-                <div class="pull-right">
-                    <a class="btn btn-primary" href="{{ route('companies.index') }}"> Back</a>
-                </div>
-            </div>
-        </div>
         @if(session('status'))
         <div class="alert alert-success mb-1 mt-1">
             {{ session('status') }}
