@@ -23,10 +23,11 @@
             </div>
         @endif
         <table class="table table-dark table-hover"  style="background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
-  padding: 20px;">
+  padding: 20px; weight:100%;">
         <thead class="thead-dark">
                 <tr>
                     <th>S.No</th>
+                    <th>Company Logo</th>
                     <th>Company Name</th>
                     <th>Company Email</th>
                     <th>Company Address</th>
@@ -37,6 +38,10 @@
                 @foreach ($companies as $company)
                     <tr>
                         <td>{{ $company->id }}</td>
+                        <td> <a href="#" data-bs-toggle="modal" data-bs-target="#myModal{{$company->id}}">
+                                <div class="d-flex justify-content-center">
+                                    <img src="{{ $company->photo }}" class="rounded-circle" style="width: 50px; height: 50px;">
+                                </div></a></td>
                         <td>{{ $company->name }}</td>
                         <td>{{ $company->email }}</td>
                         <td>{{ $company->address }}</td>
